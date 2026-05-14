@@ -1,0 +1,10 @@
+Follow the step if you loose access to your user or root in Ubuntu26.04
+
+STEP 1
+Reboot your system and continuously press the interupt key (usually esc or f12) to enter bios 
+Select 'Advanced options for Ubuntu' and enter. This opens the GNU GRUB menu
+Select 'Recovery mode' Option. When this loads you will be prompted with a Recovery menu
+Select 'Root'
+Once at the # prompt, ensure the partition is writable
+bash 'mount -o remount.rw /
+Update the password accordingly and re-boot the system
